@@ -1,3 +1,4 @@
+import 'package:ecokotam/routes/routes.dart';
 import 'package:ecokotam/views/assets/images/images.dart';
 import 'package:ecokotam/views/theme/colors/colors.dart';
 import 'package:ecokotam/views/widgets/google_button.dart';
@@ -34,7 +35,7 @@ class SignIn extends StatelessWidget {
                         height: 200,
                       ),
                       Container(
-                        margin: EdgeInsets.only(bottom: 50),
+                        margin: const EdgeInsets.only(bottom: 50),
                         child: Text(
                           'Seja bem vindo ao Ecokotam.',
                           style: TextStyle(
@@ -47,6 +48,7 @@ class SignIn extends StatelessWidget {
                         ),
                       ),
                       GoogleButton(
+                        onPressed: () => Navigator.pushNamed(context, Routes.menu),
                         height: 50,
                         width: constraints.maxWidth * 0.8,
                       )

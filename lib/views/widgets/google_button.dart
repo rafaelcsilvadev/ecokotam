@@ -6,16 +6,17 @@ import 'package:flutter_svg_provider/flutter_svg_provider.dart';
 class GoogleButton extends StatelessWidget {
   final double width;
   final double height;
+  final Function onPressed;
 
-  const GoogleButton({Key? key, required this.width, required this.height})
+  const GoogleButton({Key? key, required this.width, required this.height, required this.onPressed})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
         style: ElevatedButton.styleFrom(backgroundColor: ColorsEcokotam.white),
-        onPressed: () => {},
-        child: Container(
+        onPressed: () => onPressed(),
+        child: SizedBox(
           width: width,
           height: height,
           child: Row(
