@@ -108,7 +108,7 @@ class Menu extends StatelessWidget {
                             child: ActionButton(
                               onPressed: () => {},
                               title: 'Onde Ficaria',
-                              icon: Icons.location_city,
+                              icon: Icons.location_on,
                             ),
                           ),
                           SizedBox(
