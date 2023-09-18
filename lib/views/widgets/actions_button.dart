@@ -15,7 +15,7 @@ class ActionButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         backgroundColor: ColorsEcokotam.green,
       ),
-      onPressed: () => onPressed,
+      onPressed: () => onPressed(),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
