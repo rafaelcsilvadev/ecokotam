@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Ecokotam',
       debugShowCheckedModeBanner: false,
       getPages: AppPages.routes,
-      initialRoute: Routes.SIGN_IN,
+      initialRoute: Routes.signIn,
     );
   }
 }

@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   get: ^4.6.6
+  flutter_svg_provider: ^1.0.1
   flutter:
     sdk: flutter
 
@@ -61,8 +62,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib\views\theme\fonts
-
+    - lib/views/theme/fonts/Inter-Regular.ttf
+    - lib/views/theme/fonts/Inter-Bold.ttf
+    - lib/views/assets/images/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
@@ -77,11 +79,11 @@ flutter:
 fonts:
  - family: 'Inter'
    fonts:
-     asset: lib\views\theme\fonts\Inter-Regular.ttf
+     asset: lib/views/theme/fonts/Inter-Regular.ttf
      weight: 400
  - family: 'Inter Bold'
    fonts:
-     asset: lib\views\theme\fonts\Inter-Bold.ttf
+     asset: lib/views/theme/fonts/Inter-Bold.ttf
      weight: 700
   #
   # For details regarding fonts from package dependencies,

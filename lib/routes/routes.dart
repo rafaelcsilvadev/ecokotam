@@ -1,3 +1,3 @@
 abstract class Routes {
-  static const SIGN_IN = '/sigIn';
+  static const signIn = '/sigIn';
 }
