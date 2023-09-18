@@ -75,7 +75,7 @@ class Menu extends StatelessWidget {
                           height: 110,
                           child: ActionButton(
                             onPressed: () => {},
-                            title: 'Reutilizar\nOrganico',
+                            title: 'Reutilizar\nOrgânico',
                             icon: Icons.recycling,
                           ),
                         ),
@@ -102,7 +102,7 @@ class Menu extends StatelessWidget {
                           height: 110,
                           child: ActionButton(
                             onPressed: () => {},
-                            title: 'Onde ficaria',
+                            title: 'Onde Ficaria',
                             icon: Icons.location_city,
                           ),
                         ),
