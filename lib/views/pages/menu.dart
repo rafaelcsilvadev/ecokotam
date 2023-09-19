@@ -12,7 +12,10 @@ class Menu extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: const AppBarEcokotam(),
+        appBar: AppBarEcokotam(
+          title: 'Menu',
+          hasLeading: false,
+        ),
         body: WillPopScope(
           onWillPop: () async {
             return false;
@@ -43,7 +46,8 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(
+                                  context, Routes.objective),
                               title: 'Objetivo',
                               icon: Icons.newspaper,
                             ),
@@ -178,7 +182,8 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => Navigator.pushNamed(context, Routes.signIn),
+                              onPressed: () =>
+                                  Navigator.pushNamed(context, Routes.signIn),
                               title: 'Sair',
                               icon: Icons.logout,
                             ),
