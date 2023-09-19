@@ -32,14 +32,16 @@ class AppBarEcokotam extends StatelessWidget implements PreferredSizeWidget {
           );
         }) : null,
         automaticallyImplyLeading: hasLeading,
-        title: hasLeading == false ? Center(
+        title: hasLeading == false ? Container(
+          margin: const EdgeInsets.only(top: 5),
+          alignment: Alignment.center,
           child: Text(
             title,
             style: const TextStyle(fontFamily: 'Inter'),
           ),
         ) : Container(
           alignment: Alignment.center,
-          margin: const EdgeInsets.only(right: 50),
+          margin: const EdgeInsets.only(right: 50, top: 5),
           child: Text(
             title,
             style: const TextStyle(fontFamily: 'Inter'),

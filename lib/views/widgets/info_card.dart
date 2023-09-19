@@ -20,7 +20,7 @@ class InfoCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width * 0.95,
-      height: height * 0.5,
+      height: height * 0.8,
       margin: const EdgeInsets.only(top: 10),
       child: Card(
         shape: RoundedRectangleBorder(
@@ -43,7 +43,7 @@ class InfoCard extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               child: SizedBox(
-                height: height * 0.22,
+                height: height * 0.42,
                 child: SingleChildScrollView(
                   child: widget,
                 ),

@@ -1,6 +1,7 @@
 import 'package:ecokotam/routes/routes.dart';
 import 'package:ecokotam/views/pages/menu.dart';
 import 'package:ecokotam/views/pages/objective.dart';
+import 'package:ecokotam/views/pages/recycle_organic.dart';
 import 'package:ecokotam/views/pages/signIn.dart';
 import 'package:get/get.dart';
 
@@ -17,6 +18,10 @@ class AppPages {
     GetPage(
       name: Routes.objective,
       page: () => const Objective(),
+    ),
+    GetPage(
+      name: Routes.recycleOrganic,
+      page: () => const RecycleOrganic(),
     ),
   ];
 }
