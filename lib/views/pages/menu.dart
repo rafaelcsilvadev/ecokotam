@@ -92,7 +92,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(context, Routes.recyclePet),
                               title: 'Reutilizar\nPet',
                               icon: Icons.recycling_outlined,
                             ),
