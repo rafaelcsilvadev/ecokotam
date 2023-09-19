@@ -71,7 +71,7 @@ class Menu extends StatelessWidget {
                             height: 110,
                             child: ActionButton(
                               onPressed: () => {},
-                              title: 'Horário',
+                              title: 'Horários',
                               icon: Icons.schedule,
                             ),
                           ),
@@ -89,7 +89,7 @@ class Menu extends StatelessWidget {
                             height: 110,
                             child: ActionButton(
                               onPressed: () => {},
-                              title: 'Reutilizar\nPetes',
+                              title: 'Reutilizar\nPet',
                               icon: Icons.recycling_outlined,
                             ),
                           ),
