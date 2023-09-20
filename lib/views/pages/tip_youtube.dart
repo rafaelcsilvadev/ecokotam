@@ -9,6 +9,7 @@ class TipYouTube extends StatelessWidget {
 
   final Uri _url13Tip = Uri.parse('https://youtu.be/6yDD6vpNgbo');
   final Uri _url16Tip = Uri.parse('https://youtu.be/U3fGstzhXvI');
+  final Uri _urlGarden = Uri.parse('https://youtu.be/umV3P25B0Nc');
 
   _launchUrl(Uri url) {
       launchUrl(url);
@@ -37,7 +38,7 @@ class TipYouTube extends StatelessWidget {
                     child: InkWell(
                       onTap: () => _launchUrl(_url13Tip),
                       child: const Text(
-                        '\u2022 13 IDEIAS BRILHANTES COM GARRAFA PET.',
+                        '\u2022 13 Ideias Brilhantes com Garrafa Pet.',
                         style: TextStyle(
                             fontFamily: 'Inter',
                             fontSize: 14,
@@ -53,7 +54,23 @@ class TipYouTube extends StatelessWidget {
                     child: InkWell(
                       onTap: () => _launchUrl(_url16Tip),
                       child: const Text(
-                        '\u2022 16 BRILHANTES IDEAS COM GARRAFA PLÁSTICA ARTESANATO.',
+                        '\u2022 16 Brilhantes Ideias com Garrafa Plástica Artesanato.',
+                        style: TextStyle(
+                            fontFamily: 'Inter',
+                            fontSize: 14,
+                            decoration: TextDecoration.underline,
+                            color: Colors.green
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: const EdgeInsets.only(top: 10),
+                    width: constraints.maxWidth,
+                    child: InkWell(
+                      onTap: () => _launchUrl(_urlGarden),
+                      child: const Text(
+                        '\u2022 Horta Suspensa em Garrafa Pet.',
                         style: TextStyle(
                             fontFamily: 'Inter',
                             fontSize: 14,
