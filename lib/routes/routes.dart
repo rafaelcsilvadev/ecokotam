@@ -8,4 +8,5 @@ abstract class Routes {
   static const tipYouTube = '/tip_youtube';
   static const tipCourse = '/tip_course';
   static const split = '/split';
+  static const project = '/project';
 }

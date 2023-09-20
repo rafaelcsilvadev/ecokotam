@@ -2,6 +2,7 @@ import 'package:ecokotam/routes/routes.dart';
 import 'package:ecokotam/views/pages/location.dart';
 import 'package:ecokotam/views/pages/menu.dart';
 import 'package:ecokotam/views/pages/objective.dart';
+import 'package:ecokotam/views/pages/project.dart';
 import 'package:ecokotam/views/pages/recycle_organic.dart';
 import 'package:ecokotam/views/pages/recycle_pet.dart';
 import 'package:ecokotam/views/pages/signIn.dart';
@@ -47,6 +48,10 @@ class AppPages {
     GetPage(
       name: Routes.split,
       page: () => const Split(),
+    ),
+    GetPage(
+      name: Routes.project,
+      page: () => const Project(),
     ),
   ];
 }

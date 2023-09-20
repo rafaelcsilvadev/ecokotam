@@ -164,7 +164,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(context, Routes.project),
                               title: 'Projeto',
                               icon: Icons.group,
                             ),
@@ -172,25 +172,25 @@ class Menu extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Container(
-                      margin: const EdgeInsets.only(top: 20),
-                      width: constraints.maxWidth * 0.9,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          SizedBox(
-                            width: 100,
-                            height: 110,
-                            child: ActionButton(
-                              onPressed: () =>
-                                  Navigator.pushNamed(context, Routes.signIn),
-                              title: 'Sair',
-                              icon: Icons.logout,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
+                    // Container(
+                    //   margin: const EdgeInsets.only(top: 20),
+                    //   width: constraints.maxWidth * 0.9,
+                    //   child: Row(
+                    //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    //     children: [
+                    //       SizedBox(
+                    //         width: 100,
+                    //         height: 110,
+                    //         child: ActionButton(
+                    //           onPressed: () =>
+                    //               Navigator.pushNamed(context, Routes.signIn),
+                    //           title: 'Sair',
+                    //           icon: Icons.logout,
+                    //         ),
+                    //       ),
+                    //     ],
+                    //   ),
+                    // ),
                   ],
                 ),
               );
