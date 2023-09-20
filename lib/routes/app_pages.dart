@@ -5,6 +5,7 @@ import 'package:ecokotam/views/pages/objective.dart';
 import 'package:ecokotam/views/pages/recycle_organic.dart';
 import 'package:ecokotam/views/pages/recycle_pet.dart';
 import 'package:ecokotam/views/pages/signIn.dart';
+import 'package:ecokotam/views/pages/split.dart';
 import 'package:ecokotam/views/pages/tip_course.dart';
 import 'package:ecokotam/views/pages/tip_youtube.dart';
 import 'package:get/get.dart';
@@ -42,6 +43,10 @@ class AppPages {
     GetPage(
       name: Routes.tipCourse,
       page: () => TipCourse(),
+    ),
+    GetPage(
+      name: Routes.split,
+      page: () => const Split(),
     ),
   ];
 }

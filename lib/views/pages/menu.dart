@@ -146,7 +146,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(context, Routes.split),
                               title: 'Separação',
                               icon: Icons.check_box,
                             ),

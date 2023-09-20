@@ -7,12 +7,15 @@ class InfoCard extends StatelessWidget {
   final double height;
   final Widget widget;
   final String image;
+  double? limitScroll;
 
-  const InfoCard(
+
+   InfoCard(
       {Key? key,
       required this.width,
       required this.height,
       required this.widget,
+      this. limitScroll = 0.42,
       required this.image})
       : super(key: key);
 
@@ -43,7 +46,7 @@ class InfoCard extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               child: SizedBox(
-                height: height * 0.42,
+                height: height * limitScroll!,
                 child: SingleChildScrollView(
                   child: widget,
                 ),
