@@ -5,6 +5,7 @@ import 'package:ecokotam/views/pages/objective.dart';
 import 'package:ecokotam/views/pages/recycle_organic.dart';
 import 'package:ecokotam/views/pages/recycle_pet.dart';
 import 'package:ecokotam/views/pages/signIn.dart';
+import 'package:ecokotam/views/pages/tip_youtube.dart';
 import 'package:get/get.dart';
 
 class AppPages {
@@ -32,6 +33,10 @@ class AppPages {
     GetPage(
       name: Routes.location,
       page: () => const Location(),
+    ),
+    GetPage(
+      name: Routes.tipYouTube,
+      page: () => TipYouTube(),
     ),
   ];
 }

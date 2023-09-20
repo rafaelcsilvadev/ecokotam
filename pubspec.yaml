@@ -30,6 +30,7 @@ environment:
 dependencies:
   get: ^4.6.6
   flutter_svg_provider: ^1.0.1
+  url_launcher: ^6.1.14
   flutter:
     sdk: flutter
 

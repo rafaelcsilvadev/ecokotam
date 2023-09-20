@@ -89,6 +89,17 @@ class Location extends StatelessWidget {
                       ),
                     ),
                   ),
+                  Container(
+                    margin: const EdgeInsets.only(top: 10, left: 10),
+                    width: constraints.maxWidth,
+                    child: const Text(
+                      '\u2022 Duas na subida ao lado do Colégio Estadual Doutor Álvaro Rocha (CEDAR).',
+                      style: TextStyle(
+                        fontFamily: 'Inter',
+                        fontSize: 14,
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),

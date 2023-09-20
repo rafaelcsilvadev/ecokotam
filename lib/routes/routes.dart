@@ -5,4 +5,5 @@ abstract class Routes {
   static const recycleOrganic = '/recycle_organic';
   static const recyclePet = '/recycle_pet';
   static const location = '/location';
+  static const tipYouTube = '/tip_youtube';
 }
