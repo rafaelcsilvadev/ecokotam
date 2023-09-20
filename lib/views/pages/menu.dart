@@ -13,7 +13,7 @@ class Menu extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBarEcokotam(
-          title: 'Menu',
+          title: 'EcoKOTAM',
           hasLeading: false,
         ),
         body: WillPopScope(
@@ -128,7 +128,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(context, Routes.tipCourse),
                               title: 'Dicas\nCurso',
                               icon: Icons.thumb_up_alt_outlined,
                             ),

@@ -6,4 +6,5 @@ abstract class Routes {
   static const recyclePet = '/recycle_pet';
   static const location = '/location';
   static const tipYouTube = '/tip_youtube';
+  static const tipCourse = '/tip_course';
 }
