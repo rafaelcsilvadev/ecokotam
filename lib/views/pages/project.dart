@@ -19,9 +19,10 @@ class Project extends StatelessWidget {
           return Align(
             alignment: Alignment.topCenter,
             child: InfoCard(
-              image: ImagesEcokotam.limpeza,
+              image: ImagesEcokotam.project,
               width: constraints.maxWidth,
               height: constraints.maxHeight,
+              limitScroll: 0.38,
               widget: Column(
                 children: [
                   SizedBox(

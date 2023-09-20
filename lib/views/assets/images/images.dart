@@ -8,4 +8,5 @@ abstract class ImagesEcokotam {
   static const String instagram = 'lib/views/assets/images/instagram.png';
   static const String limpeza = 'lib/views/assets/images/limpeza.png';
   static const String lixo = 'lib/views/assets/images/lixo.png';
+  static const String project = 'lib/views/assets/images/project.png';
 }
