@@ -14,10 +14,10 @@ import 'package:get/get.dart';
 
 class AppPages {
   static final routes = [
-    GetPage(
-      name: Routes.signIn,
-      page: () => const SignIn(),
-    ),
+    // GetPage(
+    //   name: Routes.signIn,
+    //   page: () => const SignIn(),
+    // ),
     GetPage(
       name: Routes.menu,
       page: () => const Menu(),
