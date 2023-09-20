@@ -32,6 +32,7 @@ class RecyclePet extends StatelessWidget {
                       'para as casas entre outras coisas que podemos fazer com a garrafa pet.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -47,6 +48,7 @@ class RecyclePet extends StatelessWidget {
                           'para armazenar água ou óleo de cozinha.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -58,6 +60,7 @@ class RecyclePet extends StatelessWidget {
                       'Outra opção é fazer um vaso de plantas de garrafa PET.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),

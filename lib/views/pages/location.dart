@@ -30,6 +30,7 @@ class Location extends StatelessWidget {
                       'As latas de lixo, seriam postas em alguns lugares do bairro.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -41,6 +42,7 @@ class Location extends StatelessWidget {
                       'Lixeiras em pontos do bairro:',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -52,6 +54,7 @@ class Location extends StatelessWidget {
                       '\u2022 Uma na divisa Vargem Grande x Carvão.(ao lado do trailer).',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -63,6 +66,7 @@ class Location extends StatelessWidget {
                       '\u2022 Uma ao lado do ponto de ônibus.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -74,6 +78,7 @@ class Location extends StatelessWidget {
                       '\u2022 Uma na divisa Santo Cristo x Carvão.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -85,6 +90,7 @@ class Location extends StatelessWidget {
                       '\u2022 Uma Perto do salão.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -96,6 +102,7 @@ class Location extends StatelessWidget {
                       '\u2022 Duas na subida ao lado do Colégio Estadual Doutor Álvaro Rocha (CEDAR).',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),

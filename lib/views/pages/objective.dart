@@ -30,6 +30,7 @@ class Objective extends StatelessWidget {
                       '\u2022 Eliminar os lixos do bairro',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -40,6 +41,7 @@ class Objective extends StatelessWidget {
                       '\u2022 Mostrar para os moradores que alguns lixos tem sim utilidade, e podem ser reutilizados.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),

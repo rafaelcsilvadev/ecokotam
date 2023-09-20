@@ -30,6 +30,7 @@ class RecycleOrganic extends StatelessWidget {
                       'Ja os lixos orgânico como a Compostagem: o melhor destino para o seu lixo orgânico.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -43,6 +44,7 @@ class RecycleOrganic extends StatelessWidget {
                           'reutilizados no plantio de novos vegetais, reciclando assim a matéria orgânica.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -57,6 +59,7 @@ class RecycleOrganic extends StatelessWidget {
                        'nutrientes minerais e carbono',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),

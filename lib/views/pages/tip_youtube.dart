@@ -41,6 +41,7 @@ class TipYouTube extends StatelessWidget {
                         '\u2022 13 Ideias Brilhantes com Garrafa Pet.',
                         style: TextStyle(
                             fontFamily: 'Inter',
+                            fontWeight: FontWeight.w400,
                             fontSize: 14,
                             decoration: TextDecoration.underline,
                             color: Colors.green
@@ -57,6 +58,7 @@ class TipYouTube extends StatelessWidget {
                         '\u2022 16 Brilhantes Ideias com Garrafa Plástica Artesanato.',
                         style: TextStyle(
                             fontFamily: 'Inter',
+                            fontWeight: FontWeight.w400,
                             fontSize: 14,
                             decoration: TextDecoration.underline,
                             color: Colors.green
@@ -73,6 +75,7 @@ class TipYouTube extends StatelessWidget {
                         '\u2022 Horta Suspensa em Garrafa Pet.',
                         style: TextStyle(
                             fontFamily: 'Inter',
+                            fontWeight: FontWeight.w400,
                             fontSize: 14,
                             decoration: TextDecoration.underline,
                             color: Colors.green
@@ -87,6 +90,7 @@ class TipYouTube extends StatelessWidget {
                       'Neste link você tem passo a passo de como reutilizar as garrafas pets',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),

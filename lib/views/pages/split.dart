@@ -36,6 +36,7 @@ class Split extends StatelessWidget {
                       'de esvaziar todas as embalagens.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -52,6 +53,7 @@ class Split extends StatelessWidget {
                       'fora da embalagem e machuque alguém.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -63,6 +65,7 @@ class Split extends StatelessWidget {
                       'Qual a importância do descarte correto do lixo doméstico?.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -74,6 +77,7 @@ class Split extends StatelessWidget {
                       'o solo e os lençóis freáticos, colocando em risco a saúde pública',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),

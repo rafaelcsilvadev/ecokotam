@@ -39,6 +39,7 @@ class TipCourse extends StatelessWidget {
                         '\u2022 Cursos Sugeridos.',
                         style: TextStyle(
                             fontFamily: 'Inter',
+                            fontWeight: FontWeight.w400,
                             fontSize: 14,
                             decoration: TextDecoration.underline,
                             color: Colors.green
@@ -54,6 +55,7 @@ class TipCourse extends StatelessWidget {
                       style: TextStyle(
                         fontFamily: 'Inter',
                         fontSize: 14,
+                        fontWeight: FontWeight.w400,
                       ),
                     ),
                   ),

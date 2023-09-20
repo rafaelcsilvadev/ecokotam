@@ -32,6 +32,7 @@ class GoogleButton extends StatelessWidget {
                   'Fazer login com o google',
                   style: TextStyle(
                     fontFamily: 'Inter',
+                    fontWeight: FontWeight.w400,
                     color: ColorsEcokotam.black,
                   ),
                 ),

@@ -31,6 +31,7 @@ class Project extends StatelessWidget {
                       'Na imagem acima você consegue vê um pouco o nosso projeto.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
@@ -53,6 +54,7 @@ class Project extends StatelessWidget {
                           'muitas vezes insalubres e perigosos.',
                       style: TextStyle(
                         fontFamily: 'Inter',
+                        fontWeight: FontWeight.w400,
                         fontSize: 14,
                       ),
                     ),
