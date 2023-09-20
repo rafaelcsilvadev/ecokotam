@@ -155,7 +155,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(context, Routes.socialNetwork),
                               title: 'Rede Social',
                               icon: Icons.public,
                             ),
