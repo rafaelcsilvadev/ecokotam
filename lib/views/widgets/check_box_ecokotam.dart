@@ -15,35 +15,38 @@ class CheckBoxEcokotam extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 10),
-      decoration: BoxDecoration(
-        border: Border(
-          bottom: BorderSide(width: 1.5, color: ColorsEcokotam.green),
+    return Material(
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        decoration: BoxDecoration(
+          border: Border(
+            bottom: BorderSide(width: 1.5, color: ColorsEcokotam.green),
+          ),
         ),
-      ),
-      child: Row(
-        children: [
-          Checkbox(
-            checkColor: ColorsEcokotam.white,
-            activeColor: ColorsEcokotam.green,
-            value: value,
-            onChanged: (bool? bool) => onChanged(),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(4),
+        child: Row(
+          children: [
+            Checkbox(
+              checkColor: ColorsEcokotam.white,
+              activeColor: ColorsEcokotam.green,
+              value: value,
+              onChanged: (bool? bool) => onChanged(),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(4),
+              ),
             ),
-          ),
-          Text(
-            text,
-            style: TextStyle(
-              fontFamily: 'Inter',
-              color: ColorsEcokotam.black,
-              fontSize: 14,
-              fontWeight: FontWeight.w400,
-              decoration: TextDecoration.none,
+            Text(
+              text,
+              style: TextStyle(
+                fontFamily: 'Inter',
+                color: ColorsEcokotam.black,
+                fontSize: 14,
+                fontWeight: FontWeight.w400,
+                decoration: value == true ? TextDecoration.lineThrough : TextDecoration.none,
+                decorationColor: ColorsEcokotam.black,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

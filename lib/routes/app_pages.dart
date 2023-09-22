@@ -1,4 +1,5 @@
 import 'package:ecokotam/routes/routes.dart';
+import 'package:ecokotam/views/pages/days.dart';
 import 'package:ecokotam/views/pages/location.dart';
 import 'package:ecokotam/views/pages/menu.dart';
 import 'package:ecokotam/views/pages/objective.dart';
@@ -62,6 +63,10 @@ class AppPages {
     GetPage(
       name: Routes.times,
       page: () => const Times(),
+    ),
+    GetPage(
+      name: Routes.days,
+      page: () => const Days(),
     ),
   ];
 }

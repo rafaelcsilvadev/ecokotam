@@ -9,40 +9,40 @@ import 'package:ecokotam/views/widgets/layout.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 
-class Times extends StatefulWidget {
-  const Times({Key? key}) : super(key: key);
+class Days extends StatefulWidget {
+  const Days({Key? key}) : super(key: key);
 
   @override
-  State<Times> createState() => _TimesState();
+  State<Days> createState() => _DaysState();
 }
 
-class _TimesState extends State<Times> {
+class _DaysState extends State<Days> {
   late List<dynamic> _checkList;
   final box = GetStorage();
 
   handleGetLocalStorage() {
-    var result = box.read(LocalStorage.times);
+    var result = box.read(LocalStorage.days);
     var json;
 
     if(result != null) {
       json = jsonDecode(result);
     }
 
-    if (result != null && json["listTimes"] != null) {
-      return json["listTimes"]  as List<dynamic>;
+    if (result != null && json["listDays"] != null) {
+      return json["listDays"]  as List<dynamic>;
     } else {
       return [false, false, false, false, false, false];
     }
   }
 
   handleSaveLocalStorage() {
-    Map<String, List<dynamic>> times = {
-      "listTimes": _checkList,
+    Map<String, List<dynamic>> days = {
+      "listDays": _checkList,
     };
 
     box.write(
-      LocalStorage.times,
-      jsonEncode(times),
+      LocalStorage.days,
+      jsonEncode(days),
     );
 
     handleGetLocalStorage();
@@ -77,7 +77,7 @@ class _TimesState extends State<Times> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBarEcokotam(
-          title: 'Horário',
+          title: 'Dias',
           hasLeading: true,
         ),
         body: LayoutBuilder(
@@ -119,32 +119,32 @@ class _TimesState extends State<Times> {
                     child: Column(
                       children: [
                         CheckBoxEcokotam(
-                          text: 'Segunda-feira 09:00',
+                          text: 'Segunda-feira',
                           onChanged: () => handleCheck(0),
                           value: _checkList[0],
                         ),
                         CheckBoxEcokotam(
-                          text: 'Terça-feira 08:40 Ruas secundáras',
+                          text: 'Terça-feira',
                           onChanged: () => handleCheck(1),
                           value: _checkList[1],
                         ),
                         CheckBoxEcokotam(
-                          text: 'Quarta-feira 09:00',
+                          text: 'Quarta-feira',
                           onChanged: () => handleCheck(2),
                           value: _checkList[2],
                         ),
                         CheckBoxEcokotam(
-                          text: 'Quinta-feira 08:40 Ruas secundáras',
+                          text: 'Quinta-feira',
                           onChanged: () => handleCheck(3),
                           value: _checkList[3],
                         ),
                         CheckBoxEcokotam(
-                          text: 'Sexta-feira 09:00',
+                          text: 'Sexta-feira',
                           onChanged: () => handleCheck(4),
                           value: _checkList[4],
                         ),
                         CheckBoxEcokotam(
-                          text: 'Sábado 09:00',
+                          text: 'Sábado',
                           onChanged: () => handleCheck(5),
                           value: _checkList[5],
                         ),
