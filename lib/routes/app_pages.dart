@@ -8,6 +8,7 @@ import 'package:ecokotam/views/pages/recycle_pet.dart';
 import 'package:ecokotam/views/pages/signIn.dart';
 import 'package:ecokotam/views/pages/social_network.dart';
 import 'package:ecokotam/views/pages/split.dart';
+import 'package:ecokotam/views/pages/times.dart';
 import 'package:ecokotam/views/pages/tip_course.dart';
 import 'package:ecokotam/views/pages/tip_youtube.dart';
 import 'package:get/get.dart';
@@ -57,6 +58,10 @@ class AppPages {
     GetPage(
       name: Routes.socialNetwork,
       page: () => const SocialNetwork(),
+    ),
+    GetPage(
+      name: Routes.times,
+      page: () => const Times(),
     ),
   ];
 }

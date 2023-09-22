@@ -10,4 +10,5 @@ abstract class Routes {
   static const split = '/split';
   static const project = '/project';
   static const socialNetwork = '/social_network';
+  static const times = '/times';
 }

@@ -74,7 +74,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => {},
+                              onPressed: () => Navigator.pushNamed(context, Routes.times),
                               title: 'Horários',
                               icon: Icons.schedule,
                             ),
