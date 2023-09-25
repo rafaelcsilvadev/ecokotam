@@ -3,8 +3,8 @@ import 'package:ecokotam/views/widgets/info_card.dart';
 import 'package:flutter/material.dart';
 import '../widgets/app_bar_ecokotam.dart';
 
-class Location extends StatelessWidget {
-  const Location({Key? key}) : super(key: key);
+class WouldStay extends StatelessWidget {
+  const WouldStay({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

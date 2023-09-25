@@ -110,7 +110,7 @@ class Menu extends StatelessWidget {
                             width: 100,
                             height: 110,
                             child: ActionButton(
-                              onPressed: () => Navigator.pushNamed(context, Routes.location),
+                              onPressed: () => Navigator.pushNamed(context, Routes.wouldStay),
                               title: 'Onde Ficaria',
                               icon: Icons.location_on,
                             ),
