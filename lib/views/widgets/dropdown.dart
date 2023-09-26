@@ -37,7 +37,7 @@ class _DropdownEcokotamState extends State<DropdownEcokotam> {
               children: [
                 Expanded(
                   child: Text(
-                    'Select Item',
+                    'Selecione um bairro',
                     style: TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.bold,
