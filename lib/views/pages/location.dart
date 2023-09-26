@@ -41,7 +41,6 @@ class _LocationState extends State<Location> {
   }
 
   void changeMapCamera(Neighborhood location) async {
-    print('passou');
     LatLng newlatlang = LatLng(location.lat, location.lng);
     var controllerFuture = await _controller.future;
     controllerFuture.animateCamera(
