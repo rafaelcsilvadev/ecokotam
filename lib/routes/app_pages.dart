@@ -1,5 +1,6 @@
 import 'package:ecokotam/routes/routes.dart';
 import 'package:ecokotam/views/pages/days.dart';
+import 'package:ecokotam/views/pages/location.dart';
 import 'package:ecokotam/views/pages/wouldStray.dart';
 import 'package:ecokotam/views/pages/menu.dart';
 import 'package:ecokotam/views/pages/objective.dart';
@@ -62,6 +63,10 @@ class AppPages {
     GetPage(
       name: Routes.days,
       page: () => const Days(),
+    ),
+    GetPage(
+      name: Routes.location,
+      page: () => const Location(),
     ),
   ];
 }

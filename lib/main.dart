@@ -1,3 +1,5 @@
+import 'package:ecokotam/controllers/neighborhood_controller.dart';
+import 'package:ecokotam/models/neighborhood.dart';
 import 'package:ecokotam/routes/app_pages.dart';
 import 'package:ecokotam/routes/routes.dart';
 import 'package:flutter/material.dart';
@@ -6,6 +8,8 @@ import 'package:get_storage/get_storage.dart';
 
 void main() async {
   await GetStorage.init();
+
+  Get.lazyPut<NeighborhoodController>(() => NeighborhoodController(), fenix: true);
   runApp(const MyApp());
 }
 

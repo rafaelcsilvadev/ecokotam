@@ -12,4 +12,5 @@ abstract class Routes {
   static const socialNetwork = '/social_network';
   static const times = '/times';
   static const days = '/dias';
+  static const location = '/location';
 }
