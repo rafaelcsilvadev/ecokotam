@@ -1,3 +1,4 @@
+import 'package:ecokotam/routes/routes.dart';
 import 'package:ecokotam/views/theme/colors/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -26,7 +27,7 @@ class AppBarEcokotam extends StatelessWidget implements PreferredSizeWidget {
                 return IconButton(
                   icon: const Icon(Icons.chevron_left),
                   onPressed: () {
-                    Navigator.pop(context);
+                    Navigator.pushNamed(context, Routes.menu);
                   },
                   tooltip:
                       MaterialLocalizations.of(context).openAppDrawerTooltip,
