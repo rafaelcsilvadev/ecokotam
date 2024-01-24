@@ -14,6 +14,9 @@ class ActionButton extends StatelessWidget {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
         backgroundColor: ColorsEcokotam.green,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(8.0), // Adjust the border radius as needed// Border color
+        ),
       ),
       onPressed: () => onPressed(),
       child: Column(
@@ -29,7 +32,7 @@ class ActionButton extends StatelessWidget {
               style: TextStyle(
                 fontFamily: 'Inter',
                 color: ColorsEcokotam.white,
-                fontSize: 10,
+                fontSize: 9,
                 fontWeight: FontWeight.w700,
 
               ),

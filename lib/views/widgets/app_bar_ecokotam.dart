@@ -25,7 +25,10 @@ class AppBarEcokotam extends StatelessWidget implements PreferredSizeWidget {
         leading: hasLeading == true
             ? Builder(builder: (BuildContext context) {
                 return IconButton(
-                  icon: const Icon(Icons.chevron_left),
+                  icon: Icon(
+                    Icons.chevron_left,
+                    color: ColorsEcokotam.white,
+                  ),
                   onPressed: () {
                     Navigator.pushNamed(context, Routes.menu);
                   },
@@ -41,8 +44,9 @@ class AppBarEcokotam extends StatelessWidget implements PreferredSizeWidget {
                 alignment: Alignment.center,
                 child: Text(
                   title,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontFamily: 'Gothic',
+                    color: ColorsEcokotam.white,
                     fontWeight: FontWeight.w200,
                   ),
                 ),
@@ -52,8 +56,9 @@ class AppBarEcokotam extends StatelessWidget implements PreferredSizeWidget {
                 margin: const EdgeInsets.only(right: 50, top: 5),
                 child: Text(
                   title,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontFamily: 'Inter',
+                    color: ColorsEcokotam.white,
                     fontWeight: FontWeight.w400,
                   ),
                 ),

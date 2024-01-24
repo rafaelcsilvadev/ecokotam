@@ -34,8 +34,8 @@ class Menu extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(
                                   context, Routes.location),
@@ -44,8 +44,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(
                                   context, Routes.objective),
@@ -54,8 +54,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.days),
                               title: 'Dias',
@@ -72,8 +72,8 @@ class Menu extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.times),
                               title: 'Horários',
@@ -81,8 +81,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.recycleOrganic),
                               title: 'Reutilizar\nOrgânico',
@@ -90,8 +90,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.recyclePet),
                               title: 'Reutilizar\nPet',
@@ -108,8 +108,8 @@ class Menu extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.wouldStay),
                               title: 'Onde Ficaria',
@@ -117,8 +117,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.tipYouTube),
                               title: 'Dicas\nYou Tube',
@@ -126,8 +126,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.tipCourse),
                               title: 'Dicas\nCurso',
@@ -144,8 +144,8 @@ class Menu extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.split),
                               title: 'Separação',
@@ -153,8 +153,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.socialNetwork),
                               title: 'Rede Social',
@@ -162,8 +162,8 @@ class Menu extends StatelessWidget {
                             ),
                           ),
                           SizedBox(
-                            width: 100,
-                            height: 110,
+                            width: constraints.maxWidth * 0.29,
+                            height: constraints.maxHeight * 0.15,
                             child: ActionButton(
                               onPressed: () => Navigator.pushNamed(context, Routes.project),
                               title: 'Projeto',
