@@ -1,3 +1,12 @@
-# Ekocotam
+<h1>Ekocotem</h1>
 
-Nesse projeto foi utilizado o Flutter, Google Maps do Google Cloud, GetX e a arquitetura MVVM.
+<span>Tecnologias: </span>
+
+<ul>
+  <li>Flutter</li>
+  <li>Dart</li>
+  <li>GetX</li> 
+  <li>Google Maps</li>
+</ul>
+
+
