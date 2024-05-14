@@ -3,11 +3,11 @@
 <span>Tecnologias: </span>
 
 <ul>
-  <li>Flutter</li>
+  <li>Arquitetura MVVM</li>
   <li>Dart</li>
+  <li>Flutter</li>
   <li>GetX</li> 
   <li>Google Maps</li>
-  <li>Arquitetura MVVM</li>
 </ul>
 
 
