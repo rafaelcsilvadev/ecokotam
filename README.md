@@ -7,6 +7,7 @@
   <li>Dart</li>
   <li>GetX</li> 
   <li>Google Maps</li>
+  <li>Arquitetura MVVM</li>
 </ul>
 
 
