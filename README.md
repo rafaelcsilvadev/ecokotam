@@ -1,4 +1,4 @@
-<h1>Ekocotem</h1>
+<h1>Ekocotam</h1>
 
 <span>
   <b>Status: </b>
